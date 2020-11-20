@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: none;
+  width: 33.3%;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  margin: 5px;
+
+}
+.container {
+  padding:2px 2px;
+}
+.title {
+  color: grey;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin: 4px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 200px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+}
+body {
+	font-size: 18px;
+	font-family: "Lato", serif;
+}
+.brand-logo {
+	margin-left: 15px;
+	margin-top: 5px;
+	padding: 2px;
+	
+}
+.description {
+	margin-top: 130px;
+}
+.vector {
+	padding: 30px;
+}
+.go-to {
+	text-align: center;
+	padding: 30px;
+}
+.space {
+	margin: 70px;
+	border: 2px black solid;
+}
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 30px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #ff1744;
+  color: white;
+}
+label {
+	font-size: 1em;
+}
